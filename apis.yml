@@ -1,8 +1,17 @@
 aid: hallo-theo
 name: hallo theo
-description: hallo theo is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Hallo theo (rebranding to "Theo") is a German residential property management
+  company (Hausverwaltung) that manages homeowners' associations (WEG/HOA),
+  rental apartment buildings, and commercial properties across Germany. With
+  150+ experts and local teams in Berlin, Frankfurt am Main, Munich, Stuttgart,
+  and Wildeshausen, the company manages over 20,000 units and is Section 26a
+  HOA-certified, combining on-the-ground regional teams with central specialists
+  in law, technology, and finance. Backed by Insight Partners, it offers HOA
+  management, property management, commercial property management, succession,
+  and sale-and-stay-on services to co-owners and building owners. This is a
+  services company with a marketing/lead website (built on Framer + HubSpot);
+  it publishes no public developer API, SDK, documentation, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/hallo-theo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +19,29 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://framerusercontent.com/assets/0L9tNjtweG0L7WRHr8UuBJJDnc.png
 tags:
 - Company
+- Property Management
+- Real Estate
+- PropTech
+- HOA Management
+- Germany
+- Facilities Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.hallotheo.de/en/home-en/
+- type: Blog
+  url: https://hallotheo.de/en/blog
+- type: PrivacyPolicy
+  url: https://hallotheo.de/en/privacy-policy
+- type: Imprint
+  url: https://hallotheo.de/en/imprint
+- type: Support
+  url: https://hallotheo.de/en/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/theohausverwaltung
+- type: DomainSecurity
+  url: security/hallo-theo-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
